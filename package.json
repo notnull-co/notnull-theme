@@ -1,0 +1,25 @@
+{
+  "name": "notnull-theme",
+  "displayName": "NotNull Theme",
+  "publisher": "NotNullCorp",
+  "description": "A simple theme based on NotNull color scheme",
+  "version": "0.0.3",
+  "repository": {
+    "url": "https://github.com/notnull-co/notnull-theme"
+  },
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "NotNull Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/NotNull Dark-color-theme.json"
+      }
+    ]
+  }
+}
